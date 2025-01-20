@@ -32,6 +32,7 @@ with st.form(key='crop_form'):
     submit_button = st.form_submit_button(label='Predict Crop')
 
 if submit_button:
+    st.success("Data uploaded Successfully")
     # Display the input data
     st.write(f'### District: {district_name}')
     st.write(f'**Soil Color:** {soil_color}')
