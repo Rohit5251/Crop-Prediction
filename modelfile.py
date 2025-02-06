@@ -38,7 +38,7 @@ st.sidebar.header("About Krishi Disha")
 st.sidebar.write("Krishi Disha is a user-friendly platform designed to help farmers make better decisions about which crops to grow. By considering factors like soil type, weather conditions, and nutrient levels, Krishi Disha suggests the most suitable crops for each situation. This helps farmers increase their productivity and grow healthier crops, ensuring a better yield and improved farming practices.")
 st.markdown(page_bg_img, unsafe_allow_html=True)
 # Set up Gemini API key
-GEMINI_API_KEY = "AIzaSyCoZDwqGbCxFB-YY5L426MdaabNOXFbE0w"
+GEMINI_API_KEY = "Add your API key"
 st.title('Krishi Disha : Crop Prediction Based on Soil and Weather Conditions')
 
 # Brief description
